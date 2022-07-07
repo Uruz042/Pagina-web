@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/Style.css">
+
+</head>
+
+<body>
+    <h1 id="titulo">Tienda Lorem ipsum </h1>
+    <div id="Container">
+        <h1>Obtenga un descuento por sorteo</h1>
+        <h2 id="titular">Bienvenido a nuestro sistema de descuentos por sorteo!</h2>
+        <h2 id="vacio"></h2>
+        <div id="color"></div>
+        <h2 id="colortxt">verde</h2>
+        <div id="pantalla_inicio">
+            <h2 id="importefinal"></h2>
+            
+            <br>
+            <h2 id="descuento"></h2>
+            <button onclick="recarga()" id="reset"><img src="/imgs/circulo.png"/></button>
+            <br><br>
+            
+            
+            <div id="preloader"></div>
+            
+
+            
+          
+            <button id="boton" onclick="inicio()">Comenzar</button>
+            <button id="boton2" onclick="precarga()">Sacar bolita</button>
+            
+            <input id="importe" type="text">
+            <br>
+            <button id="botonsubmit" onclick="calculo()" type="submit">Calcular</button>
+            
+            
+            
+        </div>
+    </div>
+
+    <script src="/Js/scripts_index.js"></script>
+    <script src="/Js/jquerry-3.6.0.min.js"></script>
+
+</body>
+
+</html>
